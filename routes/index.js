@@ -3,7 +3,7 @@ var router = express.Router();
 var userModel = require("../models/User");
 var multer = require("multer");
 var fs = require("fs");
-var path = require("path");
+// var path = require("path");
 
 var storage = multer.diskStorage({
 	destination: (req, file, cb) => {

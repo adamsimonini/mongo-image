@@ -1,3 +1,5 @@
+// Tutorial I followed: https://www.geeksforgeeks.org/upload-and-retrieve-image-on-mongodb-using-mongoose/
+
 var express = require("express");
 var app = express();
 var bodyParser = require("body-parser");
